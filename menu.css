@@ -25,6 +25,8 @@
     align-items: center;
     margin-right: 300px; /* Espacio entre el menú y el borde*/
 
+    margin-bottom: 100px;
+
 }
 
 .cabecera nav li {
@@ -55,6 +57,7 @@
     background-color: #e68019;
     padding: 10px;
     text-align: center;  
+
 }
 
 .pie ul{
@@ -63,6 +66,8 @@
     display: flex;
     justify-content: right;
     margin-right: 250px; /* Espacio entre el menú y el borde*/
+
+
 }
 
 .pie li{

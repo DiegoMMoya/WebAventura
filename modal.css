@@ -1,0 +1,44 @@
+
+
+
+
+/* Estilos para la ventana modal */
+.modal {
+    display: none; /* Oculta la ventana modal,con fixed no se podria cerrar */
+    position: fixed; /*Fijamos la posicion */
+    z-index: 10;     /*Ubica el elemento sobre el resto, al no haber mas z-index en el codigo podria no ser necesario  */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-contenido {
+    background-color: white;
+    margin: 15% auto;   /* Auto para mantener la ventana siempre centrada*/
+    padding: 20px;
+    width: 50%;
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Mostrar modal cuando es objetivo del enlace */
+.modal:target {
+    display: block;
+}
+
+/* Botón de cierre */
+.cerrar {
+    color: red;
+    font-size: 28px;
+    text-decoration: none;
+    float: right;
+}
+
+.cerrar:hover {
+    color: darkred;
+}
+
+

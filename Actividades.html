@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades</title>
+
+     <!-- hoja de estilo de iconos online font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Fuente de letras de google-->
+    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Tillana:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="estiloContenedores.css">
+    <link rel="stylesheet" href="estiloImg.css">
+    <link rel="stylesheet" href="estiloGeneral.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="menu.css">
+
+
+
+</head>
+<body>
+
+<!-- Menu superior -->
+<header>
+    <div class="cabecera">
+        <nav>
+        <ul>
+            <li id="logo"><img src="Imagenes/Logo1.png" alt="Logo"> </img></li>
+            <li id="logo1"><img src="Imagenes/Logo2.png" alt="Logo"> </img></li>            
+            
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        </nav>
+    </div>
+    </header>
+<!-- 1er div para agrupar las "cajas" de 3 en 3 y hacer dos filas iniciales en el justify-content-->
+
+<div class="contenedor">
+    <div class="contenido">
+        <h2>PIRAGUAS</h2>
+        <div >        <img class="imgAct" src="Imagenes/canoas.jpg" alt="Foto Actividad Piraguas"> </img>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Duración:</b> 2-3 horas</p>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Precio:</b> 25€ por persona</p>
+            </div>
+
+        <div class="menu-desplegable">
+            <input type="checkbox" id="actividad1">
+            <label for="actividad1" class="btn">Más información</label>
+            <div class="info">
+                <p>Navega por las aguas del rio deva, disfrutando de su calma o desafiando los rápidos. Una experiencia refrescante en plena naturaleza.</p>
+            </div>
+        </div>
+        <div class="botones">
+            <a href="#modal-actividad" class="btn">Reservas</a>
+        </div>
+    </div>
+
+    <div class="contenido">
+        <h2>VÍAS FERRATAS</h2>
+        <div>        <img class="imgAct" src="Imagenes/ferrata.jpg" alt="Foto Actividad Via Ferrata"> </img>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Duración:</b> 3-4 horas</p>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Precio:</b> 30-60€ por persona</p>
+        </div>
+        <div class="menu-desplegable">
+            <input type="checkbox" id="actividad2">
+            <label for="actividad2" class="btn">Más información</label>
+            <div class="info">
+                <p>Acceder, trepar y atravesar increíbles paisajes de montaña, con alturas vertiginoasas,  sin necesidad de experiencia previa en escalada. Los anclajes incrustados en la pared facilitan la ascensión y el participante está siempre enganchados a una línea de vida.</p>
+                <br>
+                <p>- INICIACION 30€ : Ferrata "El torreón"</p>
+                <p>- MEDIO 45€: Ferrata "La hermida"</p>
+                <p>- AVANZADO 60€: Ferrata "Collejomadero"</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenido">
+        <h2>ESCALADA</h2>
+        <div>        <img class="imgAct" src="Imagenes/escalada.jpg" alt="Foto Actividad Piraguas"> </img>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Duración:</b> 3-4 horas</p>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Precio:</b> 40€ por persona</p>
+        </div>
+        <div class="menu-desplegable">
+            <input type="checkbox" id="actividad3">
+            <label for="actividad3" class="btn">Más información</label>
+            <div class="info">
+                <p>Conquista las rocas de Cantabria, desde sus espectaculares acantilados hasta las montañas más escondidas. ¡Cada subida es una victoria!</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- 2º div para agrupar las "cajas" de 3 en 3 y hacer dos filas iniciales en el justify-content-->
+
+<div class="contenedor">
+    <div class="contenido">
+        <h2>BARRANQUISMO</h2>
+        <div>        <img class="imgAct" src="Imagenes/barranco.jpg" alt="Foto Actividad barranco"> </img>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Duración:</b> 3-5 horas</p>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Precio:</b> 40-60€ por persona</p>
+        </div>
+        <div class="menu-desplegable">
+            <input type="checkbox" id="actividad4">
+            <label for="actividad4" class="btn">Más información</label>
+            <div class="info">
+                <p>Aventura en los cañones y ríos, saltando entre cascadas y deslizándote por pozas de agua cristalina. ¡Una experiencia llena de adrenalina!</p>
+                <p> INICIACION 40€ : Barranco Yera</p>
+                <p> AVANZADO 60€ : Barranco Ajan completo (Con rapeles)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenido">
+        <h2>ESPELEOGIA</h2>
+        <div>        <img class="imgAct" src="Imagenes/espeleo.jpg" alt="Foto Actividad Espeleogia"> </img>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Duración:</b> 2:30-3 horas</p>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Precio:</b> 40€ por persona</p>
+        </div>
+        <div class="menu-desplegable">
+            <input type="checkbox" id="actividad5">
+            <label for="actividad5" class="btn">Más información</label>
+            <div class="info">
+                <p>Descubre las entrañas de la tierra en las cavernas cántabras, rodeado de formaciones milenarias de estalactitas y estalagmitas.</p>
+                <p>Hemos seleccionado una cueva en un enterono minero del siglo XIX, con facil acceso</p>
+                <p> Rapel +10€</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenido">
+        <h2>RUTA A CABALLO</h2>
+        <div>        <img class="imgAct" src="Imagenes/rutaCaballo.jpg" alt="Foto Actividad ruta caballos"> </img>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Duración:</b> 1:30 horas</p>
+        </div>
+        <div class="info-tiempo">
+            <p><b>Precio:</b> 22€ por persona</p>
+        </div>
+        <div class="menu-desplegable">
+            <input type="checkbox" id="actividad6">
+            <label for="actividad6" class="btn">Más información</label>
+            <div class="info">
+                <p>Disfruta de tranquilos paseos a caballo entre paisajes de montaña y costa, explorando lo más bello de la región a un ritmo relajado.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+    <!-- Ventana flotante modal con formulario-->
+    <div id="modal-actividad" class="modal">
+        <div class="modal-contenido">
+            <a href="#" class="cerrar">&times;</a>
+            <h2>RESERVAS</h2>
+                <!-- Formulario -->
+                <form method="post" action="" >
+                    <fieldset>
+                        <legend><b>Datos Personales</b></legend>
+                            <label >Introduzca su nombre completo:</label>
+                            <input type="text" name="Nombre Apellidos"placeholder="Nombre Apellidos"
+                                                                pattern="^[A-Z][a-z]+(\s[A-Z][a-z]+)?$" title= "Comienzan en mayus. Separado por espacios." required>
+                        
+                        <br><br>
+                        <label for="email">Introduzca su email:</label>
+                        <input type="email" name="correo"placeholder="@midominio.com"
+                                            pattern="^[a-zA-Z0-9\._?].+@midominio.com" title= "El correo debe terminar en '@midominio.com" required>
+                        
+                        <br><br>
+
+                        <label for="numero_telefono">Teléfono de contacto:</label>
+                            <input type="text" id="numero_telefono" name="numero_telefono" 
+                                placeholder="+34 600 123 456" 
+                                pattern="^\+34\s\d{3}\s\d{3}\s\d{3}$" 
+                                title="El número debe comenzar con +34 y estar separado por espacios."  required>
+                    
+                        <br><br>
+                    </fieldset>
+                    
+                    <br><br>
+                    <fieldset>
+                        <legend> <b>Datos Actividad</b></legend>
+                            <label for="fecha_actividad">Selecciona fecha:</label>
+                                <input type="date" id="fecha_actividad" name="fecha_actividad" min="1900-01-01" max="2023-12-31" required>
+                            
+                            <br><br>
+
+                            <label for="Actividad">Elige tu actividad:</label>
+                            <select id="Actividad" name="Actividad" required>
+                                <option value="Escalada">Escalada</option>
+                                <option value="Piraguismo">Piraguismo</option>
+                                <option value="ViaFerrata">Via Ferrata</option>
+                                <option value="PaseoCaballos">Paseo caballos</option>
+                                <option value="Barrancos">Barranquismo</option>
+                                <option value="Espeleo">Espeleogia</option>
+                                
+                            </select>
+                            
+                        <br><br>
+                        <label for="Nparticipantes">¿Cuantos sereis?:</label>
+                        <input type="number" id="Nparticipantes" name="Nparticipantes" min="2" max="10" required><br><br>
+            
+                    </fieldset>
+                    <br><br>
+                    <fieldset>
+                        <legend><b>Experiencia previa </b></legend>
+                        <form>
+                            <label for="ExperienciaCliente">Cuentame brevemente sobre vosotros:</label><br>
+                            <textarea id="ExperienciaCliente" name="ExperienciaCliente" maxlength="500" rows="4" cols="50" ></textarea>
+                            <!-- maxLength= cantidad de caracteres que admite en area, rows = filas que tendra inicialmente el recuadro (largo), cols = columnas del recuadro (ancho)--> 
+                        <br><br>
+                
+                
+                    </fieldset>
+                <br>
+                <input type="submit" name="enviar" value="Enviar">
+                <input type="reset" name="clear" value="Limpiar formulario">    
+                    
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Footer, barra inferior-->
+    <footer>
+        <div class="pie">
+          <ul>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://wa.me/" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
+          </ul>
+        </div>
+      </footer>
+</body>
+</html>
