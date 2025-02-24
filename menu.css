@@ -1,23 +1,35 @@
+/* Estilos menú sup y footer*/ 
 * {
     margin: 0px;
 }
 
 .cabecera {
     background-color: #e68019;
-    padding: 10px;
     text-align: center;
 }
+
+#logo img {
+    height: 80px;  /* Ajusta la altura según necesites */
+    width: auto;   /* Mantiene la proporción original */
+}
+#logo1{
+    margin-right: 420px; /* Espacio entre el logo y el menú */
+}
+
 
 .cabecera nav ul {
     list-style: none;
     padding: 5px;
     display: flex;
     justify-content: right;
+    align-items: center;
+    margin-right: 300px; /* Espacio entre el menú y el borde*/
+
 }
 
 .cabecera nav li {
     display: inline-block;
-    margin: 5px;
+    margin: 10px;
 }
 
 .cabecera nav li a {
@@ -50,6 +62,7 @@
     padding: 5px;
     display: flex;
     justify-content: right;
+    margin-right: 250px; /* Espacio entre el menú y el borde*/
 }
 
 .pie li{
