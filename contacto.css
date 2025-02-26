@@ -1,0 +1,87 @@
+#titulo{
+    margin-top: 0px;
+    margin-bottom: 5%;
+    margin-left: 50%;
+    padding-top: 220px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    background-color: lightsalmon;
+    font-size: 18pt;
+    color: #fff;
+    text-align: justify;
+}
+
+#estrucExteriorInfoContacto{
+    display: flex;
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+
+#estrucInterior{
+    flex-direction: column;
+}
+
+#estrucExteriorInfoContacto img{
+    max-height: 600px;
+}
+
+#estrucExteriorInfoContacto h1{
+    margin-left: 20%;
+    padding-left: 50px;
+    border-left-color: black;
+    border-style: none none none solid;
+    max-width: 250px;
+    font-size: 28pt;
+    color: #e68019;
+}
+
+#textoInteriorInfoContacto{
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    max-width: 550px;
+}
+
+#estrucExteriorInfoContacto ul{
+    margin-left: 7%;
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+#estrucExteriorInfoContacto li{
+    margin: 10px;
+}
+
+#estrucExteriorForm{
+    display: flex;
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+
+#textoInteriorForm{
+    max-width: 350px;
+}
+
+#textoInteriorForm h1{
+    padding-left: 50px;
+    margin-bottom: 50px;
+    border-color: black;
+    border-style: none none none solid;
+    font-size: 28pt;
+    color: #e68019;
+}
+
+#formulario{
+    padding: 50px;
+    margin-left: 100px;
+    background-color: #e68019;
+}
+
+#dondeEstamos{
+    text-align: center;
+}
+
+#dondeEstamos h1{
+    font-size: 28pt;
+    color: #e68019;
+}
