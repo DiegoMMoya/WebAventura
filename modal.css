@@ -4,9 +4,9 @@
 
 /* Estilos para la ventana modal */
 .modal {
-    display: none; /* Oculta la ventana modal,con fixed no se podria cerrar */
+    display: none; /* Oculta la ventana modal, con fixed no se podria cerrar */
     position: fixed; /*Fijamos la posicion */
-    z-index: 10;     /*Ubica el elemento sobre el resto, al no haber mas z-index en el codigo podria no ser necesario  */
+    z-index: 10;     /*Ubica el elemento sobre el resto, al no haber más z-index en el código, podría no ser necesario  */
     left: 0;
     top: 0;
     width: 100%;
@@ -16,7 +16,11 @@
 
 .modal-contenido {
     background-color: white;
-    margin: 15% auto;   /* Auto para mantener la ventana siempre centrada*/
+    margin: 8% auto;   /* Auto para mantener la ventana siempre centrada, aplica un margen sup porcentual al tamaño pantalla */
+    
+    max-height: 60vh; /* Controla la altura máxima */
+    overflow-y: auto; /* Permite scroll vertical si no entra todo el contenido*/
+
     padding: 20px;
     width: 50%;
 
@@ -26,7 +30,7 @@
 
 /* Mostrar modal cuando es objetivo del enlace */
 .modal:target {
-    display: block;
+    display: flex;
 }
 
 /* Botón de cierre */

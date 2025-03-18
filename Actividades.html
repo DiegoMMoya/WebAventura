@@ -8,9 +8,7 @@
      <!-- hoja de estilo de iconos online font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
-    <!-- Fuente de letras de google-->
-    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Tillana:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
+   
     
     <link rel="stylesheet" href="estiloContenedores.css">
     <link rel="stylesheet" href="estiloImg.css">
@@ -86,6 +84,9 @@
                 <p>- AVANZADO 60€: Ferrata "Collejomadero"</p>
             </div>
         </div>
+        <div class="botones">
+            <a href="#modal-actividad" class="btn">Reservas</a>
+        </div>
     </div>
 
     <div class="contenido">
@@ -104,6 +105,9 @@
             <div class="info">
                 <p>Conquista las rocas de Cantabria, desde sus espectaculares acantilados hasta las montañas más escondidas. ¡Cada subida es una victoria!</p>
             </div>
+        </div>
+        <div class="botones">
+            <a href="#modal-actividad" class="btn">Reservas</a>
         </div>
     </div>
 
@@ -131,6 +135,9 @@
                 <p> AVANZADO 60€ : Barranco Ajan completo (Con rapeles)</p>
             </div>
         </div>
+        <div class="botones">
+            <a href="#modal-actividad" class="btn">Reservas</a>
+        </div>
     </div>
 
     <div class="contenido">
@@ -152,6 +159,9 @@
                 <p> Rapel +10€</p>
             </div>
         </div>
+        <div class="botones">
+            <a href="#modal-actividad" class="btn">Reservas</a>
+        </div>
     </div>
 
     <div class="contenido">
@@ -170,6 +180,9 @@
             <div class="info">
                 <p>Disfruta de tranquilos paseos a caballo entre paisajes de montaña y costa, explorando lo más bello de la región a un ritmo relajado.</p>
             </div>
+        </div>
+        <div class="botones">
+            <a href="#modal-actividad" class="btn">Reservas</a>
         </div>
     </div>
 
@@ -216,14 +229,23 @@
                             <label for="Actividad">Elige tu actividad:</label>
                             <select id="Actividad" name="Actividad" required>
                                 <option value="Escalada">Escalada</option>
-                                <option value="Piraguismo">Piraguismo</option>
-                                <option value="ViaFerrata">Via Ferrata</option>
-                                <option value="PaseoCaballos">Paseo caballos</option>
-                                <option value="Barrancos">Barranquismo</option>
-                                <option value="Espeleo">Espeleogia</option>
-                                
+                                <option value="Piraguismo">Piragüismo</option>                           
+                                <optgroup label="Vía Ferrata">
+                                    <option value="Ferrata_Torreon">Iniciación 30€ - Ferrata "El Torreón"</option>
+                                    <option value="Ferrata_Hermida">Medio 45€ - Ferrata "La Hermida"</option>
+                                    <option value="Ferrata_Collejomadero">Avanzado 60€ - Ferrata "Collejomadero"</option>
+                                </optgroup>                           
+                                <optgroup label="Barranquismo">
+                                    <option value="Barranco_Yera">Iniciación 40€ - Barranco Yera</option>
+                                    <option value="Barranco_Ajan">Avanzado 60€ - Barranco Ajan completo (con rápeles)</option>
+                                </optgroup>      
+                                <option value="PaseoCaballos">Paseo a caballo</option>
+                                <optgroup label="Espeleología">
+                                    <option value="Espeleo_SinRapel">Sin rápel</option>
+                                    <option value="Espeleo_ConRapel">Con rápel +10€</option>
+                                </optgroup>                            
                             </select>
-                            
+        
                         <br><br>
                         <label for="Nparticipantes">¿Cuantos sereis?:</label>
                         <input type="number" id="Nparticipantes" name="Nparticipantes" min="2" max="10" required><br><br>
