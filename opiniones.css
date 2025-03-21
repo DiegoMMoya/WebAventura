@@ -1,0 +1,68 @@
+
+
+/* Contenedor de opiniones centrado con márgenes laterales y fondo gris clarito */
+.reviews {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #eaeaea; /* Fondo gris clarito */
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Cada opinión */
+.review {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px 15px 15px 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+/* Logo de Google en la esquina superior derecha */
+.review .google-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #4285F4;
+}
+
+/* Título de la opinión */
+.review h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+/* Valoración con estrellas en una sola línea */
+.rating {
+    margin-bottom: 10px;
+    color: #f4c150; /* Color dorado similar al de las estrellas de Google */
+    font-size: 16px;
+    white-space: nowrap; /* Evita que las estrellas se envuelvan en varias líneas */
+}
+
+/* Texto de la reseña */
+.review p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Efecto de agrandamiento al pasar el cursor */
+.review:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.encabezado-opiniones {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e68019;
+    margin-bottom: 20px;
+}

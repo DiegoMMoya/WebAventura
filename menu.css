@@ -49,30 +49,49 @@
     color: black;
     transform: scale(1.1);
 }
-
-.pie{
+footer {
     position: fixed;
     width: 100%;
-    bottom: 0px;
+    bottom: 0;
     background-color: #e68019;
-    padding: 10px;
-    text-align: center;  
-
-}
-
-.pie ul{
-    list-style: none;
-    padding: 5px;
+    padding: 10px 40px; /* Más margen a los lados */
     display: flex;
-    justify-content: right;
-    margin-right: 250px; /* Espacio entre el menú y el borde*/
-
-
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
 }
 
-.pie li{
+/* Contenido de la izquierda (Copyright + Política de cookies) */
+.pieIzq {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre el texto y el enlace */
+    margin-left:110px;
+}
+
+.pieIzq p {
+    margin: 0;
+    color: black;
+}
+
+.pieIzq a {
     text-decoration: none;
-    color: #fff;
-    padding: 10px 15px;
-    display: inline-block;
+    color: black;
+    font-weight: bold;
 }
+
+/* Redes sociales a la derecha */
+.pie {
+    margin-right:200px;
+}
+
+.pie ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* Espacio entre los iconos */
+}
+
+
+
