@@ -1,4 +1,4 @@
-/* Importación fueuntes de Google */
+/* Importación fuentes de Google */
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Tillana:wght@400;500;600;700;800&display=swap');
 
 
@@ -14,4 +14,21 @@ body {
 h2{
     text-align: center;
     font-weight: bold;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.botonSubir{
+    position: fixed;
+    bottom: 90px;
+    left: 95%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100%;
+}
+.botonSubir:hover {
+    background-color: #0056b3;
 }

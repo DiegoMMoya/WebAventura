@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="contacto.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Tillana:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
     <title>Contacto</title>
   </head>
   <body>
-    <header>
+    <header id="inicio">
       <div class="cabecera">
         <nav>
           <ul>
             <li id="logo"><img src="Imagenes/Logo1.png" alt="Logo"> </img></li>
             <li id="logo1"><img src="Imagenes/Logo2.png" alt="Logo"> </img></li>            
             
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="Principal.html">Inicio</a></li>
+            <li><a href="Actividades.html" >Actividades</a></li>
+            <li><a href="Formacion.html">Formación</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+
           </ul>
         </nav>
       </div>
@@ -41,17 +41,21 @@
       <div id="estrucInterior">
         <h1>Información y Contacto</h1>
         <div id="textoInteriorInfoContacto">
-          Nuestra empresa es una empresa de turismo activo que ceunta con una gran variedad
+          Nuestra empresa es una empresa de turismo activo que cuenta con una gran variedad
           de actividades de multiaventura para cualquier público, trabajamos en un entorno natural
           con un equipo altamente cualificado y profesional, priorizando la seguridad y satisfacción
           de los clientes ante todo.
       </div>
         <ul>
-          <li>+34 679 897 213</li>
-          <li>empresamultiaventura@gmail.com</li>
-          <li>Finca Alameda Vieja, 7, Ciudad Rodrigo, Salamanca.</li>
+          <li><i class="fa-solid fa-phone-volume"></i> +34 679 897 213</li>
+          <li><i class="fa-solid fa-envelope"></i> empresamultiaventura@gmail.com</li>
+          <li><i class="fa-solid fa-location-dot"></i> Finca Alameda Vieja, 7, Ciudad Rodrigo, Salamanca.</li>
         </ul>
       </div>
+    </div>
+
+    <div id="nuestrosGuias">
+      
     </div>
 
 
@@ -72,12 +76,12 @@
                 <option value="Andorrana">Puenting</option>
                 <option value="Francesa">Barranquismo</option>
                 <option value="Inglesa">Tiro Con Arco</option>
-                <option value="Italiana">Rocodromo</option>
+                <option value="Italiana">Rocódromo</option>
             </select>
           <p><label for="decripcionultimaexperincia">Mensaje: </label></p>
           <p><textarea name="descripcionultimaexperincia" cols="40" rows="8" maxlength="500" placeholder="Máx. 500 caracteres"></textarea></p>
           <p><input type="checkbox" name="Programación"> Acepto la política de privacidad</p>
-          <p><input type="submit" name="Boton enviar">     
+          <p><input type="submit" name="Boton enviar" class="botonEnviar">     
         </form>
       </div>
     </div>
@@ -86,14 +90,22 @@
 
 
     <div id="dondeEstamos">
-      <h1>Donde estamos</h1>
+      <h1>¿Dónde Estamos?</h1>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.647193009712!2d-6.530931923332629!3d40.59354237141175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3c2f73235c30f1%3A0x687a8615f410676f!2sTurismo%20Activa!5e0!3m2!1ses!2ses!4v1739956978971!5m2!1ses!2ses" 
       width="1500" height="450" style="border:0;" allowfullscreen="" 
       loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     
+    <a href="#inicio" class="botonSubir"><i class="fa-solid fa-arrow-up-long"></i></a>
 
     <footer>
+      <div class="pieIzq">
+        <div>
+          <p>Copyright © DAMCAN Aventura 2025</p>
+          <p>Diseño web 1ºDAM</p>
+        </div>
+        <a href="politica_cookies.html" target="_blank">Política de cookies</a>
+      </div>
       <div class="pie">
         <ul>
           <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>

@@ -1,0 +1,23 @@
+
+.contenedor {
+    padding: 50px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #e68019;
+}
+p {
+    color: #333;
+}
+.emoji {
+    font-size: 50px;
+}

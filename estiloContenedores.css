@@ -1,4 +1,8 @@
 /* Estilo del contenedor general */
+.bloquesActividades{
+    margin-top: 100px;
+}
+
 .contenedor {
     display: flex;
     flex-wrap: wrap; /* Las "cajas" pasan a la siguiente fila si no caben */
