@@ -21,8 +21,8 @@
     border: 2px solid #333;
     padding: 20px;
     background-color: #d9d9d9;
-    width: 28%; /* 1/3 de su contenedor*/
-    min-width: 250px; /* ancho mínimo para forzar el wrap */
+    width: 28%;         /* 1/3 de su contenedor*/
+    min-width: 250px;   /* ancho mínimo para forzar el wrap */
 
     box-sizing: border-box;
     border-radius: 5px;

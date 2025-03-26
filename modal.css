@@ -4,7 +4,7 @@
 
 /* Estilos para la ventana modal */
 .modal {
-    display: none; /* Oculta la ventana modal, con fixed no se podria cerrar */
+    display: none;   /* Oculta la ventana modal, con fixed no se podria cerrar */
     position: fixed; /*Fijamos la posicion */
     z-index: 10;     /*Ubica el elemento sobre el resto, al no haber más z-index en el código, podría no ser necesario  */
     left: 0;

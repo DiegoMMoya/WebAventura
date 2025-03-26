@@ -1,3 +1,5 @@
+
+/* -- CABECERA IMG SUP -- */
 .parteSuperior{
     margin: 0px;
     height: 600px;
@@ -33,21 +35,31 @@
     transform: scale(1.1);
 }
 
-
-.nosotros {
+/* -- SOBRE NOSOTROS -- */
+.Nosotros {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
     gap: 20px;
+    padding: 20px;
+    max-width: 1000px; /* Ancho máximo para centrar el contenido */
+    margin: 80px auto; /* Margen superior y centrar horizontalmente */
 }
 
-.bloque {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.Nosotros .bloque {
+    background-color: #eaeaea; 
     padding: 20px;
-    width: 30%;
-    text-align: center;
+    border-radius: 8px;
 }
+
+.Nosotros .bloque i {
+    font-size: 3rem; 
+    margin-bottom: 10px;
+    color: #404040; /* azul 007bff // Color del icono */
+    display: block;
+}
+s
 
 .bloque h3 {
     color: #2c3e50;
@@ -56,4 +68,69 @@
 
 .bloque p {
     color: #7f8c8d;
+}
+
+/* -- OPINIONES --*/
+.encabezado-opiniones {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e68019;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.opinionesContenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #eaeaea; /* Fondo gris clarito */
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+/* Cada opinión */
+.opinion {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px 15px 15px 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.opinion .google-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #4285F4;
+}
+
+.opinion h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+/* Valoración con estrellas */
+.valoracion {
+    margin-bottom: 10px;
+    color: #f4c150; /* dorado tipo Google */
+    font-size: 16px;
+    white-space: nowrap; /* Estrellas en una sola linea */
+}
+
+.opinion p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.opinion:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
 }
