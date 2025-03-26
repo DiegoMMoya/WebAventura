@@ -8,7 +8,7 @@
 }
 
 .textoSuperior{
-    padding-top: 50px;
+    padding-top: 150px;
     color: white;
     font-size: 32px;
     font-weight: bold;
@@ -17,6 +17,8 @@
 }
 
 .textoSuperior a{
+    margin-top: 14%;
+    display:inline-block;
     text-decoration: none;
     color: #fff;
     padding: 10px 15px;
