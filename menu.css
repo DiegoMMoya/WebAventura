@@ -64,7 +64,7 @@ footer {
     display: flex;
     align-items: center;
     gap: 20px; /* Espacio entre el texto y el enlace */
-    margin-left:110px;
+    margin-left:180px;
 }
 
 .pieIzq p {
@@ -80,7 +80,7 @@ footer {
 
 /* Redes sociales a la derecha */
 .pie {
-    margin-right:200px;
+    margin-right:180px;
 }
 
 .pie ul {
