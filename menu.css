@@ -9,7 +9,7 @@
 }
 
 #logo img {
-    height: 80px;  /* Ajusta la altura según necesites */
+    height: 80px;  
     width: auto;   /* Mantiene la proporción original */
 }
 #logo1{
@@ -48,7 +48,7 @@
     transform: scale(1.1);
 }
 
-/* FOOTER */
+/* -- FOOTER -- */
 footer {
     position: fixed;
     width: 100%;
